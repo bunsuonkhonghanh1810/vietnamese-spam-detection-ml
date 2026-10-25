@@ -12,11 +12,12 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# VS Code / IDE
+# VS Code / IDE / Office temp
 .vscode/
 .idea/
 *.swp
 *.swo
+~$*
 
 # OS generated files
 .DS_Store

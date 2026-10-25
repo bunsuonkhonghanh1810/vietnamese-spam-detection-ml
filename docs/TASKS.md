@@ -4,7 +4,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 1: Khởi tạo dự án & cấu hình Git
+## Task 1: Khởi tạo dự án & cấu hình Git [ĐÃ HOÀN THÀNH - Commit: 9e5cc0a]
 - **Mục tiêu**: Chuẩn hóa môi trường và .gitignore
 - **Files**: `.gitignore`, `requirements.txt`, `docs/RULES.md`
 - **Git Commit**:
@@ -15,12 +15,12 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 2: Tiền xử lý văn bản tiếng Việt
+## Task 2: Tiền xử lý văn bản tiếng Việt [ĐÃ HOÀN THÀNH]
 - **Mục tiêu**: Chuẩn hóa Unicode NFC, xử lý link/sđt/tiền tệ, xóa stopwords tiếng Việt
 - **Files**: `src/preprocess.py`, `data/processed/vietnamese_sms_spam_cleaned.csv`
 - **Git Commit**:
   ```bash
-  git add src/preprocess.py data/processed/
+  git add src/preprocess.py data/processed/ .gitignore docs/TASKS.md
   git commit -m "feat(nlp): implement vietnamese text cleaning pipeline"
   ```
 
