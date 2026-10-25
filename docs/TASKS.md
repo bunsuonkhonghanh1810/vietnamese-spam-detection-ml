@@ -26,7 +26,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 3: Khám phá dữ liệu EDA (Tái hiện Fig 3, 4, 5, 6) [ĐÃ HOÀN THÀNH]
+## Task 3: Khám phá dữ liệu EDA (Tái hiện Fig 3, 4, 5, 6) [ĐÃ HOÀN THÀNH - Commit: 42d204a]
 - **Mục tiêu**: Biểu đồ tròn tỷ lệ nhãn (Fig 3), Heatmap tương quan độ dài (Fig 4), WordCloud Spam vs Ham (Fig 5, 6)
 - **Files**: `src/eda.py`, `models/figures/`
 - **Git Commit**:
