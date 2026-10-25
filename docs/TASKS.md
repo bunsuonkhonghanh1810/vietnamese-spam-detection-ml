@@ -37,12 +37,12 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 4: Trích xuất đặc trưng TF-IDF
+## Task 4: Trích xuất đặc trưng TF-IDF [ĐÃ HOÀN THÀNH]
 - **Mục tiêu**: Phân chia Train/Test (80/20, `random_state=42`), vector hóa TF-IDF (Unigram + Bigram)
 - **Files**: `src/features.py`
 - **Git Commit**:
   ```bash
-  git add src/features.py
+  git add src/features.py docs/TASKS.md
   git commit -m "feat(features): extract tf-idf unigram and bigram features"
   ```
 
