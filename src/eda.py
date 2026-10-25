@@ -68,26 +68,23 @@ def run_eda_pipeline():
     print("  => Tin nhắn Spam có xu hướng dài hơn đáng kể so với tin nhắn thông thường!")
 
     # -------------------------------------------------------------
-    # FIGURE 3: Biểu đồ tròn tỷ lệ nhãn (Dataset classifying spam and ham)
+    # FIGURE 3: Biểu đồ tròn tỷ lệ nhãn (Fig 3. Dataset classifying spam and ham)
     # -------------------------------------------------------------
-    print("\n[1/4] Đang tạo Figure 3: Biểu đồ tròn tỷ lệ nhãn...")
+    print("\n[1/4] Đang tạo Figure 3: Biểu đồ tròn tỷ lệ nhãn (chuẩn flat, không cắt lát)...")
     plt.figure(figsize=(7, 7))
     label_counts = df["label"].value_counts().sort_index()
-    labels = ["Ham (Hợp lệ)", "Spam (Rác / Lừa đảo)"]
-    colors = ["#4CAF50", "#F44336"]
-    explode = (0, 0.08)
+    labels = ["Ham (Không phải rác)", "Spam (Tin rác)"]
+    colors = ["#4A90E2", "#FF6B6B"]
 
     plt.pie(
         label_counts,
-        explode=explode,
         labels=labels,
         colors=colors,
         autopct="%1.2f%%",
-        startangle=140,
-        textprops={"fontsize": 12, "weight": "bold"},
-        shadow=True
+        startangle=90,
+        textprops={"fontsize": 12, "weight": "bold"}
     )
-    plt.title("Figure 3: Dataset Classifying Spam and Ham (Vietnamese SMS)", fontsize=14, weight="bold", pad=20)
+    plt.title("Fig 3. Dataset classifying spam and ham", fontsize=14, weight="bold", pad=20)
     fig3_path = os.path.join(fig_dir, "fig3_target_distribution_pie.png")
     plt.tight_layout()
     plt.savefig(fig3_path, dpi=300)

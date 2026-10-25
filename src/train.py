@@ -137,33 +137,33 @@ def train_and_evaluate_all():
     df_results.to_csv(csv_out, index=False, encoding="utf-8-sig")
     print(f" -> Đã lưu bảng kết quả tại: {csv_out}")
 
-    # 4. Vẽ biểu đồ cột Figure 7 theo phong cách bài báo IEEE 2023
-    print("\n[4/4] Đang vẽ Figure 7: Biểu đồ cột nhóm so sánh Accuracy vs Precision...")
+    # 4. Vẽ biểu đồ cột Figure 7 theo đúng phong cách bài báo IEEE 2023 (từ 0 đến 100%)
+    print("\n[4/4] Đang vẽ lại Figure 7: Biểu đồ cột đầy đủ từ 0% đến 100% (giống bài báo gốc)...")
     fig_path = os.path.join(fig_dir, "fig7_model_comparison.png")
 
-    plt.figure(figsize=(14, 7))
+    plt.figure(figsize=(15, 7.5))
     x = np.arange(len(df_results))
-    width = 0.35
+    width = 0.36
 
     bars1 = plt.bar(x - width/2, df_results["Accuracy"], width, label="Accuracy (%)", color="#1f77b4")
     bars2 = plt.bar(x + width/2, df_results["Precision"], width, label="Precision (%)", color="#ff7f0e")
 
-    plt.xlabel("Algorithms", fontsize=12, weight="bold", labelpad=10)
-    plt.ylabel("Score (%)", fontsize=12, weight="bold", labelpad=10)
-    plt.title("Figure 7: Model Comparison Based on Performance (Accuracy vs Precision)", fontsize=14, weight="bold", pad=15)
+    plt.xlabel("Algorithms", fontsize=13, weight="bold", labelpad=12)
+    plt.ylabel("Performance (%)", fontsize=13, weight="bold", labelpad=12)
+    plt.title("Fig 7. Model comparison based on performance", fontsize=15, weight="bold", pad=18)
     plt.xticks(x, df_results["Algorithm"], fontsize=11, weight="bold")
-    plt.ylim(70, 105)
-    plt.legend(fontsize=11, loc="lower right")
-    plt.grid(axis="y", linestyle="--", alpha=0.5)
+    plt.ylim(0, 108)
+    plt.legend(fontsize=12, loc="upper right")
+    plt.grid(axis="y", linestyle="--", alpha=0.6)
 
     # Thêm giá trị số trên đầu mỗi cột
     for bar in bars1:
         yval = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2.0, yval + 0.8, f"{yval:.1f}%", ha="center", va="bottom", fontsize=8.5)
+        plt.text(bar.get_x() + bar.get_width()/2.0, yval + 1.0, f"{yval:.1f}%", ha="center", va="bottom", fontsize=9)
 
     for bar in bars2:
         yval = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2.0, yval + 0.8, f"{yval:.1f}%", ha="center", va="bottom", fontsize=8.5, weight="bold")
+        plt.text(bar.get_x() + bar.get_width()/2.0, yval + 1.0, f"{yval:.1f}%", ha="center", va="bottom", fontsize=9, weight="bold")
 
     plt.tight_layout()
     plt.savefig(fig_path, dpi=300)
