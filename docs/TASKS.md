@@ -70,7 +70,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 7: Triển khai giao diện Web Streamlit (Tái hiện Fig 8, 9, 10) [ĐÃ HOÀN THÀNH - Commit: 0eef862]
+## Task 7: Triển khai giao diện Web Streamlit (Tái hiện Fig 8, 9, 10) [ĐÃ HOÀN THÀNH - Commit: 7eb9348]
 - **Mục tiêu**: Giao diện nhập tin nhắn + nút Predict + cảnh báo Spam (đỏ) / Ham (xanh)
 - **Files**: `src/app.py`
 - **Git Commit**:
