@@ -48,7 +48,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 5: Huấn luyện & Đối chuẩn 10 mô hình ML (Tái hiện Fig 7) [ĐÃ HOÀN THÀNH]
+## Task 5: Huấn luyện & Đối chuẩn 10 mô hình ML (Tái hiện Fig 7) [ĐÃ HOÀN THÀNH - Commit: 1167c34]
 - **Mục tiêu**: Huấn luyện 10 mô hình (KNN, Naive Bayes, Random Forest, SVC, Extra Trees, Logistic Regression, XGBoost, AdaBoost, Gradient Boost, Decision Tree). Vẽ biểu đồ so sánh Accuracy vs Precision (Fig 7)
 - **Files**: `src/train.py`, `models/model_comparison.csv`, `models/figures/fig7_model_comparison.png`
 - **Git Commit**:
