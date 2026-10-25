@@ -37,7 +37,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 4: Trích xuất đặc trưng TF-IDF [ĐÃ HOÀN THÀNH]
+## Task 4: Trích xuất đặc trưng TF-IDF [ĐÃ HOÀN THÀNH - Commit: d28663f]
 - **Mục tiêu**: Phân chia Train/Test (80/20, `random_state=42`), vector hóa TF-IDF (Unigram + Bigram)
 - **Files**: `src/features.py`
 - **Git Commit**:
