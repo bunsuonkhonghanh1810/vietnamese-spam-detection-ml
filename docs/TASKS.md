@@ -81,11 +81,11 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 8: Hoàn thiện README & Báo cáo
+## Task 8: Hoàn thiện README & Báo cáo [ĐÃ HOÀN THÀNH]
 - **Mục tiêu**: Hướng dẫn chạy dự án, thảo luận Email Spam & thách thức né bộ lọc (Mục VI, VII)
 - **Files**: `README.md`
 - **Git Commit**:
   ```bash
-  git add README.md
+  git add README.md docs/TASKS.md
   git commit -m "docs: complete readme and project documentation"
   ```
