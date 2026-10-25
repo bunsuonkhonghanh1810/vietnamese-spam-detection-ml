@@ -26,12 +26,12 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 3: Khám phá dữ liệu EDA (Tái hiện Fig 3, 4, 5, 6)
+## Task 3: Khám phá dữ liệu EDA (Tái hiện Fig 3, 4, 5, 6) [ĐÃ HOÀN THÀNH]
 - **Mục tiêu**: Biểu đồ tròn tỷ lệ nhãn (Fig 3), Heatmap tương quan độ dài (Fig 4), WordCloud Spam vs Ham (Fig 5, 6)
 - **Files**: `src/eda.py`, `models/figures/`
 - **Git Commit**:
   ```bash
-  git add src/eda.py models/figures/
+  git add src/eda.py models/figures/ docs/TASKS.md
   git commit -m "feat(eda): generate data distribution, heatmap and wordclouds (Fig 3-6)"
   ```
 
