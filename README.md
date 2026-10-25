@@ -159,4 +159,4 @@ Toàn bộ quá trình phát triển tuân thủ nghiêm ngặt quy chuẩn **Co
 | **Task 5** | Đối chuẩn 10 mô hình ML (Fig 7) | `1167c34` | `feat(models): train and benchmark 10 classifiers (Fig 7)` |
 | **Task 6** | Đóng gói mô hình (.pkl) | `ecdacb5` | `feat(export): serialize naive bayes model and vectorizer` |
 | **Task 7** | Giao diện Web Streamlit (Fig 8-10) | `7eb9348` | `refactor(ui): streamline app to focused live prediction interface without extra tabs` |
-| **Task 8** | Hoàn thiện README & Tài liệu | `TBD` | `docs: complete readme and project documentation` |
+| **Task 8** | Hoàn thiện README & Tài liệu | `fcdd703` | `docs: complete readme and project documentation` |

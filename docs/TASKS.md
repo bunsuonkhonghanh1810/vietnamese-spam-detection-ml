@@ -81,7 +81,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 8: Hoàn thiện README & Báo cáo [ĐÃ HOÀN THÀNH]
+## Task 8: Hoàn thiện README & Báo cáo [ĐÃ HOÀN THÀNH - Commit: fcdd703]
 - **Mục tiêu**: Hướng dẫn chạy dự án, thảo luận Email Spam & thách thức né bộ lọc (Mục VI, VII)
 - **Files**: `README.md`
 - **Git Commit**:
