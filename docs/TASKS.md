@@ -15,7 +15,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 2: Tiền xử lý văn bản tiếng Việt [ĐÃ HOÀN THÀNH]
+## Task 2: Tiền xử lý văn bản tiếng Việt [ĐÃ HOÀN THÀNH - Commit: 2794cea]
 - **Mục tiêu**: Chuẩn hóa Unicode NFC, xử lý link/sđt/tiền tệ, xóa stopwords tiếng Việt
 - **Files**: `src/preprocess.py`, `data/processed/vietnamese_sms_spam_cleaned.csv`
 - **Git Commit**:
