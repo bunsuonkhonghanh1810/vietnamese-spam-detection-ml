@@ -59,12 +59,12 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 6: Đóng gói mô hình tối ưu
+## Task 6: Đóng gói mô hình tối ưu [ĐÃ HOÀN THÀNH]
 - **Mục tiêu**: Chọn Multinomial Naive Bayes (Precision 100%), lưu file nhị phân bằng pickle
 - **Files**: `src/export_model.py`, `models/vectorizer.pkl`, `models/model.pkl`
 - **Git Commit**:
   ```bash
-  git add src/export_model.py models/*.pkl
+  git add src/export_model.py models/*.pkl docs/TASKS.md
   git commit -m "feat(export): serialize naive bayes model and vectorizer"
   ```
 
