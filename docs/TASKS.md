@@ -59,7 +59,7 @@ Dự án: Phân loại tin nhắn rác tiếng Việt (Tái hiện bài báo IEE
 
 ---
 
-## Task 6: Đóng gói mô hình tối ưu [ĐÃ HOÀN THÀNH]
+## Task 6: Đóng gói mô hình tối ưu [ĐÃ HOÀN THÀNH - Commit: ecdacb5]
 - **Mục tiêu**: Chọn Multinomial Naive Bayes (Precision 100%), lưu file nhị phân bằng pickle
 - **Files**: `src/export_model.py`, `models/vectorizer.pkl`, `models/model.pkl`
 - **Git Commit**:
